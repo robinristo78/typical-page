@@ -38,7 +38,7 @@ function App() {
 
   return (
     <Fragment>
-      <MainHeader isAuthenticared={loggedIn} onLogout={logoutHandler} />
+      <MainHeader isAuthenticated={loggedIn} onLogout={logoutHandler} />
       <main>
         {!loggedIn && <Login onLogin={loginHandler} />}
         {loggedIn && <Home />}

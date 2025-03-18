@@ -1,4 +1,5 @@
 import './Navigation.css'
+import Button from '../UI/Button'
 
 const Navigation = (props) => {
     return (
